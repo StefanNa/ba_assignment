@@ -15,3 +15,8 @@ git pull origin master
 ###hard reset to online branch
 git fetch --all
 git reset --hard origin/master
+
+### look at older versions of the code
+git log
+git checkout <id of commit>
+
