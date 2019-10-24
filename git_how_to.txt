@@ -1,0 +1,17 @@
+list things:
+ls
+
+go in directory:
+cd <directory name>
+
+###to push files to github:
+git add .
+git commit -m '#'
+git push origin master
+
+###to get files from github:
+git pull origin master
+
+###hard reset to online branch
+git fetch --all
+git reset --hard origin/master
